@@ -27,7 +27,7 @@ class Restaurante:
         self._ativo = not self._ativo
 
     def receber_avaliacao(self, cliente, nota):
-        if 0 < nota <= 5: 
+        if 0 < nota <= 8: 
             avaliacao = Avaliacao(cliente, nota)
             self._avaliacao.append(avaliacao)
 
